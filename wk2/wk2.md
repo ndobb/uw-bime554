@@ -40,3 +40,9 @@ efficiency of work practices."
 
 
 ## Miles, R., & Hamilton, K. (2006). Chapter 3: Modeling system workflows: Activity diagrams. Learning UML 2.0. O'Reilly.
+
+- **use cases** - show what system shoudl do.
+- **activity diagrams** - specify how system will accomplish goals. Particularly good at modeling business processes. 
+- **activity** - the process being modeled.
+- **action** - a step in the overall activity.
+- **guard conditions** - if/else evaluations from decision nodes.
