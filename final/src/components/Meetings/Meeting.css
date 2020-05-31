@@ -7,7 +7,7 @@
     font-weight: 500;
     margin-top: 20px;
     min-height: 150px;
-    padding: 10px;
+    padding: 10px 10px 30px;
     position: relative;
     transition: box-shadow .3s;
 }
@@ -16,9 +16,30 @@
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.1), -4px 4px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
+.meeting > .row {
+    margin-bottom: 14px;
+}
+
+.meeting-edit {
+    color: rgb(200,200,200);
+    cursor: pointer;
+    float: right;
+    font-size: 0.8rem;
+    margin-top: -4px;
+}
+
+.meeting-edit:hover {
+    color: rgb(0, 125, 129);
+    text-decoration: underline;
+}
+
+.meeting .activity-comment svg {
+    font-size: 0.9rem;
+}
+
 .meeting-topic {
     color: rgb(118, 0, 165);
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 300;
     margin: 0 0 10px;
 }
@@ -31,7 +52,7 @@
 }
 
 .meeting-link {
-    color: rgb(51, 180, 255);
+    color: rgb(0, 145, 202);
     cursor: pointer;
     margin-bottom: 20px;
 }
@@ -50,8 +71,13 @@
 }
 
 .meeting-agenda > ol {
+    background-color: white;
+    background-color: white;
+    border: 1px solid rgb(240,240,240);
+    border-radius: 8px;
     color: rgb(50,50,50);
-    padding-top: 4px;
+    margin: 4px 0;
+    padding: 10px 10px 10px 25px;
 }
 
 .meeting-agenda-item {

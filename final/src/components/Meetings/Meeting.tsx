@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
 import './Meeting.css';
+import { FiPlus } from 'react-icons/fi';
 
 interface Props {
     agenda: any[];
@@ -16,6 +17,7 @@ export default class Meeting extends React.PureComponent<Props> {
 
         return (
             <div className='meeting'>
+                <span className='meeting-edit'>Edit</span>
                 <div className='meeting-topic'>{topic}</div>
                 <div className='meeting-date'>{date}</div>
                 <div className='meeting-link clickable'>{link}</div>
@@ -43,6 +45,7 @@ export default class Meeting extends React.PureComponent<Props> {
                         </div>
                     </Col>
                 </Row>
+                <span className='activity-comment clickable'><FiPlus/>Add Agenda Item</span>
             </div>
         );
     }
