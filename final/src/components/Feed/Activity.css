@@ -1,0 +1,96 @@
+.activity {
+    background-color: rgb(250, 250, 250);
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+    color: rgb(130,130,130);
+    font-weight: 500;
+    margin-top: 20px;
+    min-height: 150px;
+    padding: 10px;
+    position: relative;
+    transition: box-shadow .3s;
+}
+
+.activity:hover {
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.1), -4px 4px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.activity-metadata,
+.activity-content {
+    display: flex;
+}
+
+.activity-metadata-inner {
+    font-size: 1.0rem;
+    padding: 0 8px;
+}
+
+.activity-content {
+    margin-top: 8px;
+    width: 100%;
+}
+
+.user-face {
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+    height: 70px;
+    width: 70px;
+}
+
+.activity-user-name {
+    color: rgb(10, 176, 241);
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 4px;
+}
+
+.activity-date-container {
+    margin-top: -6px;
+}
+
+.activity-date {
+    color: rgb(116, 116, 116);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.clickable:hover {
+    text-decoration: underline;
+}
+
+.activity-comment {
+    bottom: 0;
+    color: rgb(51, 180, 255);
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0 10px 8px 0;
+    position: absolute;
+    right: 0;
+}
+
+.activity-comment svg {
+    font-size: 1.2rem;
+    margin-right: 6px;
+}
+
+.activity-hide {
+    color: rgb(200,200,200);
+    cursor: pointer;
+    float: right;
+    font-size: 0.8rem;
+}
+
+.activity-hide:hover {
+    color: rgb(0, 125, 129);
+    text-decoration: underline;
+}
+
+.activity-responses-ellipses {
+    font-size: 1.1rem;
+    text-align: center;
+}

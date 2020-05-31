@@ -1,0 +1,36 @@
+#header-container {
+    background-image: linear-gradient(60deg, white, rgb(248, 248, 248));
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 4px 10px 0px;
+    display: block;
+    height: 55px;
+    overflow: visible;
+    padding: 1px 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.header-content-side {
+    width: 35%;
+}
+
+.header-content-side-right {
+    font-size: 1.1rem;
+    text-align: right;
+}
+
+.title {
+    color: rgb(50,50,50);
+    display: inline-block;
+    font-size: 1.7rem;
+    font-family: 'Mukta Mahee';
+    font-weight: 100;
+    margin-left: -4px;
+    margin-top: 2px;
+    padding: 0;
+}
+
+.logo {
+    margin: 5px 0 12px 10px;
+}

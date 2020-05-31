@@ -1,0 +1,35 @@
+.upload-inner {
+    padding: 8px;
+}
+
+.upload-inner svg {
+    font-size: 1.1rem;
+    margin-right: 10px;
+    margin-top: -3px;
+}
+
+.upload-count {
+    color: rgb(250, 156, 34);
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.upload-issues-alert {
+    color: rgb(201, 147, 0);
+}
+
+.upload-issues-alert svg {
+    color: rgb(204, 116, 0);
+}
+
+.upload-issues-none svg,
+.upload-validated-yes svg {
+    color: rgb(0, 179, 0);
+}
+
+.upload-validated-yes,
+.upload-validated-no,
+.upload-issues-alert,
+.upload-issues-none {
+    padding-top: 2px;
+}
