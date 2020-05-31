@@ -39,7 +39,7 @@ export default class Activity extends React.PureComponent<Props> {
                 </div>
                 {responses.length > 0 &&
                 <Row>
-                    <Col md={{ size: 8, offset: 4 }}>
+                    <Col md={{ size: 9, offset: 3 }}>
                         <div className='activity-responses-ellipses'>⋮ </div>
                         {responses}
                     </Col>

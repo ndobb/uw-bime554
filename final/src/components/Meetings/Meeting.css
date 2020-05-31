@@ -12,7 +12,12 @@
     transition: box-shadow .3s;
 }
 
+.meeting:hover {
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.1), -4px 4px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
 .meeting-topic {
+    color: rgb(118, 0, 165);
     font-size: 1.8rem;
     font-weight: 300;
     margin: 0 0 10px;
@@ -28,16 +33,27 @@
 .meeting-link {
     color: rgb(51, 180, 255);
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
-.meeting-participants-container {
-    margin-top: 20px;
-}
-
-.meeting-participants {
-
+.meeting-participants > span,
+.meeting-agenda > span {
+    font-size: 0.8rem;
+    margin-bottom: 4px;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .meeting-participant {
+    color: rgb(0, 145, 202);
+    padding: 0 15px;
+}
 
+.meeting-agenda > ol {
+    color: rgb(50,50,50);
+    padding-top: 4px;
+}
+
+.meeting-agenda-item {
+    margin-bottom: 4px;
 }

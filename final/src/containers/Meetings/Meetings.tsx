@@ -6,9 +6,15 @@ interface Props {}
 
 export default class Meetings extends React.PureComponent<Props> {
     public render() {
+        const mia = 'Mia Biostatistician (UNC)'
         const meetings = [
             <Meeting 
-                agenda={null} date='June 5th, 1:00pm' topic='Weekly Meeting' link='https://washington.zoom.us/j/198582910'
+                date='June 5th, 1:00pm' topic='Weekly Meeting' link='https://washington.zoom.us/j/198582910'
+                agenda={[ 
+                    'Evaluate proposed Adult Baseline survey changes', 
+                    'AnVIL test uploading discussion', 
+                    <span><span>Presentation: Analysis of latest Outcomes Follow-up data </span><span className='activity-user-name clickable'>{mia}</span></span>
+                ]}
                 participants={[ 'Margaret Data Coordinator', 'Sara Johnson (Vanderbilt', 'Gary Liu (UCSF)', 'Elly Sanchez (HudsonAlpha)', 'Mia Biostatistician (UNC)' ]}
             />
         ];
