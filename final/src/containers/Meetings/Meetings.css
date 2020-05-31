@@ -1,9 +1,10 @@
-.feed {
+.meetings {
     height: 100%;
-    padding: 0 20px 8px;
+    margin-right: 30px;
+    padding: 0 0 0 50px; 
 }
 
-.feed-header {
+.meetings-header {
     border-bottom: 1px solid rgb(220,220,220);
     font-size: 2.1rem;
     font-weight: 300;

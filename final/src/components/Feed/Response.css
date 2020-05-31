@@ -9,6 +9,14 @@
     transition: box-shadow .3s;
 }
 
+.response:hover {
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.1), -4px 4px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.response > .activity-date-container {
+    margin-top: -2px;
+}
+
 .response-inner {
     background-color: white;
     border: 1px solid rgb(240,240,240);

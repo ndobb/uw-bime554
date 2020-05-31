@@ -83,6 +83,7 @@
     cursor: pointer;
     float: right;
     font-size: 0.8rem;
+    margin-top: -4px;
 }
 
 .activity-hide:hover {
@@ -91,6 +92,7 @@
 }
 
 .activity-responses-ellipses {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    font-weight: 800;
     text-align: center;
 }

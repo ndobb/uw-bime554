@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
 import Upload from '../../components/Feed/Upload';
 import Question from '../../components/Feed/Question';
 import Response from '../../components/Feed/Response';
@@ -13,7 +12,6 @@ export default class Feed extends React.PureComponent<Props> {
         const elly = 'Elly Sanchez (HudsonAlpha)';
         const sara = 'Sara Johnson (Vanderbilt)';
         const gary = 'Gary Liu (UCSF)';
-        const susan = 'Susan Smith (UNC)';
         const activities = [
             <Upload 
                 count={27} date='May 20th, 2:26pm' imgPath='user1.jpg' issues={0} validated={true} 
@@ -34,21 +32,10 @@ export default class Feed extends React.PureComponent<Props> {
         ];
 
         return (
-            <Container className='feed' fluid={true}>
-                <Row>
-                    <Col md={12}>
-                        <div className='feed-header'>Recent Upload Activity</div>
-                    </Col>
-                </Row>
-                <Row>
-
-                    {/* Main feed content */}
-                    <Col md={{ size: 10, offset: 1 }} lg={{ size: 6, offset: 1 }}>
-                        {activities}
-                    </Col>
-                    
-                </Row>
-            </Container>
+            <div className='feed'>
+                <div className='feed-header'>Recent Upload Activity</div>
+                {activities}
+            </div>
         );
     }
 }

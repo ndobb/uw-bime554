@@ -1,0 +1,43 @@
+.meeting {
+    background-color: rgb(250, 250, 250);
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px;
+    color: rgb(130,130,130);
+    font-weight: 500;
+    margin-top: 20px;
+    min-height: 150px;
+    padding: 10px;
+    position: relative;
+    transition: box-shadow .3s;
+}
+
+.meeting-topic {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+
+.meeting-date {
+    color: rgb(50, 50, 50);
+    font-size: 0.8rem;
+    margin-top: -4px;
+    text-transform: uppercase;
+}
+
+.meeting-link {
+    color: rgb(51, 180, 255);
+    cursor: pointer;
+}
+
+.meeting-participants-container {
+    margin-top: 20px;
+}
+
+.meeting-participants {
+
+}
+
+.meeting-participant {
+
+}
