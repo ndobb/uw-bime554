@@ -67,6 +67,7 @@
 
 .meeting-participant {
     color: rgb(0, 145, 202);
+    font-size: 0.8rem;
     padding: 0 15px;
 }
 
@@ -81,5 +82,6 @@
 }
 
 .meeting-agenda-item {
+    font-size: 0.8rem;
     margin-bottom: 4px;
 }

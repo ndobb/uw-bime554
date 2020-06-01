@@ -22,7 +22,7 @@ export default class Meeting extends React.PureComponent<Props> {
                 <div className='meeting-date'>{date}</div>
                 <div className='meeting-link clickable'>{link}</div>
                 <Row>
-                    <Col md={6}>
+                    <Col md={5}>
                         <div className='meeting-participants-container'>
                             <div className='meeting-participants'>
                                 <span>Participants:</span>
@@ -32,7 +32,7 @@ export default class Meeting extends React.PureComponent<Props> {
                             </div>
                         </div>
                     </Col>
-                    <Col>
+                    <Col md={7}>
                         <div className='meeting-agenda-container'>
                             <div className='meeting-agenda'>
                                 <span>Agenda:</span>

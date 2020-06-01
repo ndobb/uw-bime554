@@ -15,12 +15,12 @@ export default class Main extends React.PureComponent<Props> {
                         <Row>
 
                             {/* Feed */}
-                            <Col md={7} className='feed-col'>
+                            <Col md={8} className='feed-col'>
                                 <Feed/>
                             </Col>
 
                             {/* Meetings */}
-                            <Col md={5} className='meeting-col'>
+                            <Col md={4} className='meeting-col'>
                                 <Meetings />
                             </Col>
 
